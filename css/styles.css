@@ -29,9 +29,10 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .header-logo .logo-part {
@@ -66,6 +67,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .nav-link:hover,
@@ -99,8 +101,11 @@ button {
   color: #fff;
 }
 
-.hero-button-link:hover,
-.hero-button-link:focus {
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -144,10 +149,10 @@ button {
 }
 
 .team-list {
-  background-color: #ffffff;
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-img {
