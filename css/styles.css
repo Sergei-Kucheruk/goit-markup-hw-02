@@ -35,6 +35,10 @@ button {
   color: #4d5ae5;
 }
 
+.header-logo {
+  color: #4d5ae5;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
@@ -101,10 +105,7 @@ button {
   color: #fff;
 }
 
-.hero-button:hover {
-  background-color: #404bbf;
-}
-
+.hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
@@ -149,10 +150,10 @@ button {
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
-  background-color: #ffffff;
 }
 
 .team-img {
@@ -207,6 +208,10 @@ button {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
 }
 
 .footer-logo .logo-part {
